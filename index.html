@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="firstPage">
+        <div id="WeatherApi">Weather Api</div>
+        <button id="fetchData">Fetch Data</button>
+    </div>
+
+    <div id="secondPage">
+        <div id="secondPageTop">
+            <p id="welcomeText">Welcome To The Weather App</p>
+            <p id="locationText">Here is your current location</p>
+            <div id="cordi">
+                <div id="latitudeInput" class="cordiDiv"></div>
+                <div id="longitudeInput" class="cordiDiv"></div>        
+            </div>
+           
+            <div id="iframe">
+                
+            </div>
+        </div>
+        <div id="secondPageBottom">
+            <div id="yourWeatherData">Your Weather Data</div>
+            <div id="location">
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

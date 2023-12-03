@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#firstPage{
+    width: 100vw;
+height: 100vh;
+background: #360369;
+display: flex;   
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#WeatherApi{
+    font-family: Montserrat;
+font-size: 100px;
+font-weight: 700;
+line-height: 122px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+width: 692.27px;
+height: 144px;
+}
+
+#fetchData{
+    width: 492px;
+height: 58px;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+#fetchData:hover{
+    cursor: pointer;
+}
+
+#secondPageTop{
+    width: 100vw;
+    background-color: #360369;
+}
+
+#welcomeText{
+font-family: Montserrat;
+font-size: 54px;
+font-weight: 700;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+margin-left: 10px;
+}
+
+#locationText{
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 300;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+margin-left: 10px;
+}
+
+#cordi{
+    display: flex;
+}
+
+.cordiDiv{
+    width: 380px;
+    height: 87px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+padding-inline: auto;
+    background-color: aqua;
+}
+#iframe{
+    margin: 10px;
+}
+
+#secondPageBottom{
+    margin-left: 10px;
+}
+
+#yourWeatherData{
+    width: 912px;
+height: 86px;
+font-family: Montserrat;
+font-size: 54px;
+font-weight: 700;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+color: #360369;
+}
+
+#location {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: row;
+    width: 90vw;
+  }
+
+  #data{
+    height: 7vh;
+    width: fit-content;
+    border-radius: 10px;
+    background-color:#360369;
+    color: #ffffff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align:start;
+   }
+   #secondPage{
+    display: none;
+   }
